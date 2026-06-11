@@ -39,10 +39,13 @@ Comparar el rendimiento de dos estrategias:
 
 ## Conclusiones
 
-Durante el periodo analizado, la estrategia Buy & Hold superó claramente a la estrategia basada en medias móviles.
+Durante el periodo analizado, la estrategia Buy & Hold superó claramente a la estrategia basada en el cruce de medias móviles de 50 y 200 días.
 
-Aunque la estrategia MA50/MA200 redujo ligeramente la volatilidad, obtuvo una rentabilidad significativamente menor y no consiguió mejorar el drawdown máximo.
+Aunque la estrategia MA50/MA200 redujo ligeramente la volatilidad, obtuvo una rentabilidad significativamente inferior y no consiguió mejorar la máxima caída sufrida por la cartera.
 
+Los resultados indican que, para el Fidelity MSCI World Index Fund y el periodo analizado, mantenerse invertido de forma continua resultó más eficiente que seguir una estrategia basada en el cruce de medias móviles.
+
+Este análisis coincide con una de las ideas fundamentales de la inversión indexada: el tiempo en el mercado suele ser más importante que intentar acertar el momento de entrada y salida.
 ## Evolución de la inversión
 
 ![Backtesting](backtest.png)
@@ -50,6 +53,12 @@ Aunque la estrategia MA50/MA200 redujo ligeramente la volatilidad, obtuvo una re
 ## Drawdown
 
 ![Drawdown](drawdown.png)
+
+## Estructura del repositorio
+
+- `msci-world-backtesting.py`: implementación del backtesting y cálculo de métricas de rendimiento.
+- `backtest.png`: comparación de la evolución acumulada de ambas estrategias.
+- `drawdown.png`: comparación de las caídas máximas de ambas estrategias.
 
 ## Tecnologías utilizadas
 
